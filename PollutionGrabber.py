@@ -140,6 +140,6 @@ if __name__ == '__main__':
     try:
         pollution_grabber()
     except Exception as e:
-        # printl("TachTerpreter execution failed; printing exception: \n" + str(e))
+        # printl("EPAPollutionGrabber execution failed; printing exception: \n" + str(e))
         # printl("Full stack trace \n")
         traceback.print_exc()
